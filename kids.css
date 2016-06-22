@@ -1,0 +1,58 @@
+body {
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+hr {
+    width: 90%;
+    padding: 0px;
+    margin: 40px;
+    border: 0;
+    height: 3px;
+}
+p {
+    width: 80%;
+    margin: 10px auto;
+    font-family: 'Arial', cursive;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    color: #DE5757;
+    font-size: 100px;
+    text-align: center;
+}
+h2 {
+    font-family: 'Chelsea Market', cursive;
+    color: #000000;
+    text-align: center;
+}
+.container {
+    width: 800px;
+    background-color: #EEEEEE;
+    padding: 30px;
+    margin: 0 auto 0 auto;
+}
+.video {
+    width: 640px;
+    height: 360px;
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0 auto;
+    background-color: #CCCCCC;
+    display: block;
+}
+@media (max-width: 930px) {
+    hr {
+        margin: 40px 0px 40px 0px;
+    }
+    .container {
+        width: 100%;
+        padding: 20px 30px 20px 30px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    .video {
+        width: 70%;
+        height: auto;
+    }
+}
